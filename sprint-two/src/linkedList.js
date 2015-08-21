@@ -3,7 +3,7 @@ var LinkedList = function(){
   list.head = null;
   list.tail = null;
   list.addToTail = function(value){
-    //if list is empty (tail is null/head is null) 
+    //if list is empty (tail is null/head is null)
     //create new node assigned to tail & head
     if (list.tail === null) {
       list.tail = Node(value);
